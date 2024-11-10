@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Library - About Us</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      .about-header {
+        background-color: #f8f9fa;
+        padding: 60px 0;
+      }
+      .team-member {
+        transition: transform 0.3s;
+      }
+      .team-member:hover {
+        transform: translateY(-5px);
+      }
+      .footer {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Digital Library</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="collections.html">Collections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Header -->
+    <header class="about-header">
+      <div class="container text-center">
+        <h1>About Digital Library</h1>
+        <p class="lead">Learn more about our mission and team</p>
+      </div>
+    </header>
+
+    <!-- Mission Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2>Our Mission</h2>
+            <p>Digital Library aims to make knowledge accessible to everyone, everywhere. We believe in the power of digital transformation to break down barriers to education and information.</p>
+            <p>Our platform provides access to thousands of digital resources, from academic journals to leisure reading materials, ensuring that quality content is just a click away.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="library.jpg" alt="Library Interior" class="img-fluid rounded" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Our Team</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card team-member h-100">
+              <img src="image.jpeg" class="card-img-top" alt="Team Member" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Budi</h5>
+                <p class="card-text">Library Director</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card team-member h-100">
+              <img src="image.jpeg" class="card-img-top" alt="Team Member" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Noel</h5>
+                <p class="card-text">Digital Content Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card team-member h-100">
+              <img src="image.jpeg" class="card-img-top" alt="Team Member" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Halland</h5>
+                <p class="card-text">Technical Support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Contact Us</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
